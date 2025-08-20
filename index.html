@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saai Goud — Portfolio</title>
+  <meta name="description" content="E‑commerce specialist with 4+ years managing Amazon PPC, Flipkart listings, catalog optimization, and performance reporting." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    (function(){
+      try {
+        const pref = localStorage.getItem('sg_theme') || 'dark';
+        if(pref === 'dark') document.documentElement.classList.add('dark');
+      } catch(e) {}
+    })();
+  </script>
+  <style>
+    .chip{ @apply text-xs px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700; }
+    .card{ @apply rounded-2xl shadow-sm border border-slate-200/60 dark:border-slate-800/60 bg-white dark:bg-slate-900; }
+  </style>
+</head>
+<body class="min-h-screen bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+<header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-950/60 border-b border-slate-200/60 dark:border-slate-800/60">
+  <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+    <a href="#home" class="font-semibold tracking-tight text-xl">Saai Goud</a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#about" class="hover:opacity-80">About</a>
+      <a href="#skills" class="hover:opacity-80">Skills</a>
+      <a href="#experience" class="hover:opacity-80">Experience</a>
+      <a href="#projects" class="hover:opacity-80">Portfolio</a>
+      <a href="#contact" class="hover:opacity-80">Contact</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <button id="themeBtn" class="rounded-2xl px-3 py-2 text-sm border border-slate-300/60 dark:border-slate-700/60">Toggle Theme</button>
+      <a href="#" target="_blank" class="rounded-2xl px-3 py-2 text-sm border border-slate-300/60 dark:border-slate-700/60">Resume</a>
+    </div>
+  </div>
+</header>
+
+<main id="home" class="mx-auto max-w-6xl px-4">
+  <!-- HERO -->
+  <section id="hero" class="pt-16 pb-10 md:pt-24 md:pb-16">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <p class="text-sm uppercase tracking-wider text-slate-500 dark:text-slate-400">E‑Commerce & Amazon Ads</p>
+        <h1 class="text-3xl md:text-5xl font-bold leading-tight mt-2">Saai Goud</h1>
+        <p class="mt-4 text-base md:text-lg text-slate-600 dark:text-slate-300 max-w-prose">
+          E‑commerce specialist with 4+ years managing Amazon PPC, Flipkart listings, catalog optimization, and performance reporting. Focused on data‑driven growth and operational excellence.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contact" class="rounded-2xl px-4 py-2 bg-slate-900 text-white dark:bg-white dark:text-slate-900">Contact Me</a>
+          <a href="#" target="_blank" class="rounded-2xl px-4 py-2 border border-slate-300/60 dark:border-slate-700/60">Download Resume</a>
+        </div>
+        <div class="mt-6 flex flex-wrap gap-4 text-sm text-slate-500 dark:text-slate-400">
+          <span class="inline-flex items-center gap-2">📍 Hyderabad, India</span>
+          <a class="inline-flex items-center gap-2 hover:underline" href="https://www.linkedin.com/in/saaikiran-goud-g-5b2338197" target="_blank" rel="noreferrer">in/ LinkedIn</a>
+          <a class="inline-flex items-center gap-2 hover:underline" href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card p-6 space-y-3 text-sm text-slate-600 dark:text-slate-300">
+        <h3 class="text-lg font-semibold mb-2">What I Do</h3>
+        <p>• Design and optimize Amazon Sponsored Ads (SP/SB) with disciplined bid strategies and negative keywords to balance growth and ACoS.</p>
+        <p>• Handle Flipkart channel operations: listings, price/discount updates, catalog corrections, and order hygiene.</p>
+        <p>• Build MoM performance reports, sales discrepancy trackers, and concise summaries for stakeholders in Excel/Power BI.</p>
+        <p>• Localize keyword research and titles for Indian marketplaces to increase relevance and conversions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-12">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-4">About Me</h2>
+    <p class="text-slate-600 dark:text-slate-300 max-w-3xl">
+      I’m an e‑commerce specialist with hands‑on experience across ads, catalog, and reporting. I enjoy solving growth problems with clean structures: sensible campaign hierarchies, precise targeting, and readable reports that inform decisions.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-12">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Skills & Tools</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div class="card p-4"><span class="text-sm font-medium">Amazon Ads (PPC)</span></div>
+      <div class="card p-4"><span class="text-sm font-medium">Sponsored Ads</span></div>
+      <div class="card p-4"><span class="text-sm font-medium">Keyword Research</span></div>
+      <div class="card p-4"><span class="text-sm font-medium">Flipkart Channel Mgmt</span></div>
+      <div class="card p-4"><span class="text-sm font-medium">Excel (VLOOKUP, Pivots)</span></div>
+      <div class="card p-4"><span class="text-sm font-medium">Power BI Dashboards</span></div>
+      <div class="card p-4"><span class="text-sm font-medium">SOPs & Process</span></div>
+      <div class="card p-4"><span class="text-sm font-medium">Python (Beginner)</span></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="py-12">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Experience</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card p-6">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-semibold">E‑Commerce & Amazon Ads Specialist</h3>
+          <span class="text-sm text-slate-500 dark:text-slate-400">2019 — Present</span>
+        </div>
+        <ul class="list-disc pl-5 mt-3 space-y-2 text-sm text-slate-600 dark:text-slate-300">
+          <li>4+ years in e‑commerce operations and Amazon Ads management.</li>
+          <li>Managed Sponsored Products/Brands campaigns: structure, bids, negations, budgets.</li>
+          <li>Flipkart channel handling: listings, discounts, catalog hygiene, and order coordination.</li>
+          <li>Built MoM reports, discrepancy trackers, and performance summaries for stakeholders.</li>
+          <li>Prepared keyword sets and optimized titles for Indian marketplaces.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-12">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Portfolio</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold mb-2">Amazon PPC Optimization</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-300">Structured Sponsored Products & Brands campaigns, improved CTR and lowered ACoS through keyword mining, negations, and bid optimizations.</p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="chip">Sponsored Products</span>
+          <span class="chip">ACoS</span>
+          <span class="chip">CTR</span>
+          <span class="chip">Search Term Report</span>
+        </div>
+      </div>
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold mb-2">Flipkart Catalog & Listings</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-300">End-to-end listing creation, pricing/discount updates, catalog corrections, and order oversight to maintain Buy Box & visibility.</p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="chip">Listing</span>
+          <span class="chip">Pricing</span>
+          <span class="chip">Catalog</span>
+        </div>
+      </div>
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold mb-2">Reports & MoM Dashboards</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-300">Built MoM performance reports, discrepancy trackers, and automated views; prototyped visuals in Power BI for stakeholder updates.</p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="chip">MoM</span>
+          <span class="chip">Power BI</span>
+          <span class="chip">Excel</span>
+        </div>
+      </div>
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold mb-2">Keyword Strategy — India Marketplace</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-300">Researched and curated product titles & keyword sets tailored for Indian marketplaces to improve relevance and conversions.</p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="chip">Keyword Research</span>
+          <span class="chip">India</span>
+          <span class="chip">Listings</span>
+        </div>
+      </div>
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold mb-2">SOPs & Playbooks</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-300">Standardized processes for channel handling, campaigns, and reporting to improve consistency and onboarding speed.</p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="chip">SOP</span>
+          <span class="chip">Operations</span>
+          <span class="chip">Docs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-14">
+    <div class="grid lg:grid-cols-3 gap-6 items-start">
+      <div class="lg:col-span-2">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-6">Let’s work together</h2>
+        <div class="card p-6 space-y-4">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <input class="border rounded-xl px-3 py-2 bg-transparent" placeholder="Your name" />
+            <input class="border rounded-xl px-3 py-2 bg-transparent" placeholder="Your email" type="email" />
+          </div>
+          <input class="border rounded-xl px-3 py-2 bg-transparent" placeholder="Your message" />
+          <div class="flex justify-end">
+            <a href="mailto:your.email@example.com" class="rounded-2xl px-4 py-2 bg-slate-900 text-white dark:bg-white dark:text-slate-900">Send Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-4">
+        <div class="card p-6 space-y-3">
+          <a class="flex items-center gap-3 hover:underline" href="mailto:your.email@example.com">✉️ your.email@example.com</a>
+          <a class="flex items-center gap-3 hover:underline" href="tel:+91XXXXXXXXXX">📞 +91 XXXXXXXXXX</a>
+          <a class="flex items-center gap-3 hover:underline" href="https://www.linkedin.com/in/saaikiran-goud-g-5b2338197" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+          <a class="flex items-center gap-3 hover:underline" href="https://github.com/your-username" target="_blank" rel="noreferrer">💻 GitHub</a>
+          <div class="flex items-center gap-3 text-slate-600 dark:text-slate-300">📍 Hyderabad, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 text-center text-sm text-slate-500 dark:text-slate-400">
+    © <span id="year"></span> Saai Goud — Built with ❤️
+  </footer>
+</main>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('themeBtn').addEventListener('click', function(){
+    const el = document.documentElement;
+    const isDark = el.classList.toggle('dark');
+    try { localStorage.setItem('sg_theme', isDark ? 'dark' : 'light'); } catch(e) {}
+  });
+</script>
+</body>
+</html>
